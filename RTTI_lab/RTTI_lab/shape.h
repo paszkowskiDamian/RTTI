@@ -1,9 +1,11 @@
 #pragma once
+#include  <iostream>
+
 class shape
 {
 public:
 	shape();
 	~shape();
-	virtual void show() = 0;
+	virtual void draw() = 0;
 };
 

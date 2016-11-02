@@ -11,6 +11,3 @@ shape::~shape()
 {
 }
 
-void shape::show()
-{
-}
