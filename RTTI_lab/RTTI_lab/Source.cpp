@@ -11,6 +11,7 @@ int main()
 	rectangle rec;
 	square sqr;
 
+	shape **tab = new shape*[10];
 
 	char user;
 	std::cin >> user;
@@ -29,6 +30,7 @@ int main()
 
 	std::cout << "I'm " << typeid(sptr).name() << std::endl;
 	std::cout << "I'm " << typeid(*sptr).name() << std::endl;
+
 
 	square* newSqr = dynamic_cast<square*>(sptr);
 	
