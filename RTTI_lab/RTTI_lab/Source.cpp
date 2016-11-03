@@ -11,6 +11,8 @@ int main()
 	rectangle rec;
 	square sqr;
 
+	circle cir2;
+
 	shape **tab = new shape*[10];
 
 	char user;
